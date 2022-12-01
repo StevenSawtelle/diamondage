@@ -1,0 +1,59 @@
+table {
+    border-spacing: 0;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    thead {
+        tr {
+            background-color: lightgray;
+            color: black;
+            text-align: left;
+        }
+    }
+    tbody {
+        tr:hover {
+            opacity: .75;
+        }
+    }
+    tr {
+        :last-child {
+            td {
+                border-bottom: 0;
+            }
+        }
+        &.red {
+            background-color: indianred;
+        }
+        &.green {
+            background-color: lightgreen;
+        }
+    }
+
+    th,
+    td {
+        margin: 0;
+        padding: 0.5rem;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+
+        .arrow-icon {
+            height: 24px;
+            width: 24px;
+        }
+
+        .search-input {
+            width: 95%;
+        }
+
+        :last-child {
+            border-right: 0;
+        }
+        .true {
+            color: white;
+            font-weight: bold;
+        }
+        .false {
+            color: black;
+        }
+    }
+}

@@ -1,3 +1,14 @@
+Take home for Diamond Age
+
+To run locally, run `npm install` and then `npm start`
+
+Todo:
+- [ ] restrict domain and subdomain to only valid types
+- [ ] allow for changing sort
+- [ ] redux
+- [ ] make owners an array instead of string
+- [ ] clean up styling
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
